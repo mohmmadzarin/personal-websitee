@@ -1,0 +1,173 @@
+@charset "utf-8";
+body{
+	margin: 0px;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color:#F0F0F0;
+	
+}
+
+.container{
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+h1{
+	position: absolute;
+	text-align: right;
+	border: 1px solid black;
+	text-align-last: center;
+	width: 180px;
+	top: 13px;
+	right: 20px;
+	padding: 15px;
+	border-radius: 20px;
+	font-size: 25px;
+	color: white;
+	background-color: #5E5E5E;
+	box-shadow: 5px 10px 10px black;
+}
+
+.list{
+	position: absolute;
+	border: 1px solid #FFFFFF;
+	padding: 10px 0px 10px 30px;
+	background-color: white;
+	display: flex;
+	list-style: none;
+    margin-bottom: 105px;
+	font-size: 20px;
+	top: 5px;
+	right: 570px;
+	border-radius: 10px;
+	gap: 20px;
+	
+	
+}
+.list li a {
+	text-decoration: none;
+    color: black;
+	font-size: 22px;
+	
+}
+
+.list li.a1 a {
+	padding: 10px 30px 10px 20px;
+	background-color: #5E5E5E;
+	 color: white;
+	border-radius: 0px 10px 10px 0px;
+	border: 0px solid #5E5E5E;
+	width: 40px;
+}
+img {
+	position: absolute;
+	width:270px;
+	height: 180px;
+	top: 5px;
+	left: -38px;
+
+}
+
+.img1{
+	position: absolute;
+	top: 70px;
+	left: 450px;
+	width: 550px;
+	height: 700px;
+	border: 0px solid #5E5E5E;
+	
+}
+
+p{
+	position: absolute;
+	border: 0px solid #000000;
+	font-size: 30px;
+	text-align: center;
+	right: 930px;
+	top: 200px;
+	
+}
+
+.email{
+	position: absolute;
+	border: 0px solid #5E5E5E;
+	top: 580px;
+	right: 1090px;
+	font-size: 25px;
+}
+
+.img2{
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	top: 630px;
+	left: 150px;
+}
+
+.img3{
+	position: absolute;
+	width: 53px;
+	height: 53px;
+	top: 630px;
+	left: 230px;
+}
+
+.img4{
+	position: absolute;
+	width: 53px;
+	height: 53px;
+	top: 630px;
+	left: 310px;
+}
+
+.img5{
+	position: absolute;
+	width: 250px;
+	height: 150px;
+	top: 140px;
+	left: 1000px;
+}
+ 
+.talent1{
+	position: absolute;
+	border: 0px solid #5E5E5E;
+	top: 300px;
+	left: 1055px;
+	font-size: 25px;
+	
+}
+
+.img6{
+	position: absolute;
+	width: 270px;
+	height: 200px;
+	top: 310px;
+	left: 1200px;
+}
+
+.talent2{
+	position: absolute;
+	border: 0px solid #5E5E5E;
+	top: 469px;
+	left: 1250px;
+	font-size: 27px;
+}
+
+.img7{
+	position: absolute;
+	width: 270px;
+	height: 160px;
+	top: 500px;
+	left: 1000px;
+}
+
+.talent3{
+	position: absolute;
+	border: 0px solid #5E5E5E;
+	top: 659px;
+	left: 1085px;
+	font-size: 28px;
+}
